@@ -1,0 +1,87 @@
+<!--My dice game project-->
+<html>
+<head>
+<title>PROJECT</title>
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+
+<body class="bg-image">
+<div class="wrapper">
+  <h1 class='myheading'></h1>
+  <div class="output player_output">
+  	<h2 class="player">YOU</h2>
+    <div class="dice">
+      <h2>Your Dice</h2>
+      <div class="dice_out dice_01_out">
+    
+         <div class="yourDice1">&nbsp;</div>
+      </div>
+      <div class="dice_out dice_02_out">
+  
+        <div class="yourDice2">&nbsp;</div>
+      </div>
+    </div>
+    <div class="points">
+      <h2>Your Score</h2>	
+      <div class="points_board score_round_show">
+        <h3>Score this<br /> Round</h3>
+        <span>&nbsp;</span>
+      </div>
+      <div class="points_board score_total_show">
+        <h3>Total<br/> Score</h3>
+        <span>&nbsp;</span>
+      </div>
+    </div>
+  </div>
+  <div class="output computer_output_show">
+  	<h2 class="player">COMPUTER</h2>
+    <div class="dice">
+      <h2>Computer Dice</h2>
+      <div class="dice_out dice_01_out">
+       <div class="computerDice1">&nbsp;</div>
+      </div>
+      <div class="dice_out dice_02_out">
+        <div class="computerDice2">&nbsp;</div>
+      </div>
+    </div>
+    <div class="points">
+      <h2>Computer Score</h2>	
+      <div class="points_board score_round_show">
+        <h3>Score this<br /> Round</h3>
+        <span>&nbsp;</span>
+      </div>
+      <div class="points_board score_total_show">
+        <h3>Total<br /> Score</h3>
+        <span>&nbsp;</span>
+      </div>
+    </div>
+  </div>
+  <div class="dice_buttons_control">
+  	<button class="new_game">NEW GAME</button>
+    <button class="roll_dice">ROLL DICE</button>
+  </div><br>
+  
+  <!--rules of the game -->
+  <div id="flipper-game">Click me to Know How to Play?</div>
+<div id="panel-game">
+<ul class="instructions_of_game">
+ <li>To start the game, Click the "Roll Dice" Button </li>
+ <li>To advance to the next round,Click the "Roll Dice" Button again </li>
+ <li>After three rounds the game is over and the final score is calculated</li>
+ <li>If you want to play again,Click the "New Game" button or refresh the page</li>
+ </ul></div>
+ <br><br>
+ <div id="flipper-rules">Click to view rules of the game: </div>  
+ <div id="panel-rules">
+<ul class="instructions_of_game">
+ <li>Each round,You and computer will roll a pair of dice. </li>
+ <li>Your score for that round will be based on sum of the dice </li>
+ <li>If any of the two dice comes up as 1 then the score of that round is 0.</li>
+ <li>If both the dice shows same number then score of the round is total of two dice times two.</li>
+ </ul></div>
+ </div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="scripts/script.js"></script>
+    
+</body>
+</html>
