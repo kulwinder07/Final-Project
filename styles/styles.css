@@ -1,0 +1,171 @@
+﻿
+.myheading {
+	background-image: url("../images/heading.png");
+	height: 65px;
+	background-repeat: no-repeat;
+}
+
+span {
+	width: 20px;
+	height: 100px;
+	margin: 20px;
+}
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, pre, a, small, strong, tt, var, b, u, i, center, nav, output, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-align: center;
+}
+
+.new_game, .roll_dice {
+	padding: 12px;
+	border-radius: 15px;
+	border-style: none;
+	background-color: rgb(255, 60, 0);
+	color: black;
+	font-size: 15px;
+	font-family: fantasy;
+}
+
+.new_game:hover, .roll_dice:hover {
+	color: white;
+	background-color: black;
+}
+
+.bg-image {
+	background-image: url("../images/bg.jpg");
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+main {
+	display: block;
+}
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 1.3rem;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 1.1rem;
+	margin-bottom: 8px;
+}
+
+.wrapper {
+	width: 950px;
+	height: 1000px;
+	padding: 30px;
+	border: 1px solid rgb(12, 12, 12);
+	border: 1px solid rgb(10, 10, 10);
+	margin: 30px auto;
+	background-color: rgb(199, 212, 14);
+}
+
+.output {
+	width: 400px;
+	padding: 10px;
+	float: left;
+	margin-left: 19px;
+	margin-bottom: 30px;
+	border: 1px solid rgb(8, 8, 8);
+}
+
+.player {
+	text-align: center;
+	font-size: 1.6rem;
+	color: white;
+	height: 40px;
+	padding: 10px;
+}
+
+.player_output {
+	margin-left: 0;
+	background-image: url("../images/comp.png");
+	border-radius: 25px;
+	border-style: none;
+}
+
+.computer_output_show {
+	background-image: url("../images/comp.png");
+	border-radius: 25px;
+	border-style: none;
+}
+
+.dice,
+.points {
+	overflow: auto;
+	margin-bottom: 20px;
+	border: 4px double rgb(12, 12, 12);
+	padding: 20px;
+}
+
+.dice_out,
+.points_board {
+	width: 153px;
+	height: 100px;
+	margin-left: 19px;
+	border: 1px solid rgb(7, 7, 7);
+	float: left;
+	padding: 20px;
+	text-align: center;
+	background-color: #11eba9;
+}
+
+.dice_01_out,
+.score_round_show {
+	margin-left: 0;
+}
+
+.score {
+	margin-bottom: 0;
+}
+
+#panel-rules, #panel-game, #flipper-game, #flipper-rules {
+	background-color: #f37e0a;
+	border: 1px solid black;
+	padding: 5px;
+	text-align: left;
+	border-radius: 20px;
+}
+
+#panel-game, #panel-rules {
+	padding: 10px;
+	display: none;
+}
+
+ul.instructions_of_game {
+	list-style-type: circle;
+}
